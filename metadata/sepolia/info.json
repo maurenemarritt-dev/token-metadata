@@ -7,6 +7,6 @@
   "chain": "Sepolia",
   "chainId": 11155111,
   "contractAddress": "0xc2C71a850875d028c8d48047C5a6c11d0C434490",
-  "logoURI": "__PUBLIC_URL_PENDING__/assets/logo-distribution.png",
+  "logoURI": "https://token-metadata-sepolia.maurenemarritt.workers.dev/assets/logo-distribution.png",
   "explorer": "https://sepolia.etherscan.io/token/0xc2C71a850875d028c8d48047C5a6c11d0C434490"
 }

@@ -4,5 +4,5 @@
   "name": "Tether USD",
   "symbol": "USDT",
   "decimals": 18,
-  "logoURI": "__PUBLIC_URL_PENDING__/assets/logo-distribution.png"
+  "logoURI": "https://token-metadata-sepolia.maurenemarritt.workers.dev/assets/logo-distribution.png"
 }
