@@ -1,0 +1,25 @@
+{
+  "name": "Sepolia Test Token List",
+  "logoURI": "__PUBLIC_URL_PENDING__/assets/logo-distribution.png",
+  "keywords": [
+    "sepolia",
+    "test-token",
+    "erc20"
+  ],
+  "timestamp": "2026-10-05T06:14:10Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 11155111,
+      "address": "0xc2C71a850875d028c8d48047C5a6c11d0C434490",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "__PUBLIC_URL_PENDING__/assets/logo-distribution.png"
+    }
+  ]
+}
