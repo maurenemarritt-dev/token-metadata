@@ -3,11 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Metadata de token de prueba en Sepolia</title>
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Importa manualmente en MetaMask el token de prueba USDT desplegado en Sepolia.">
+  <title>Token de prueba USDT · Sepolia</title>
+  <link rel="icon" href="/assets/logo-distribution.png" type="image/png">
+  <link rel="stylesheet" href="/assets/app.css">
+  <script src="/assets/app.js" defer></script>
 </head>
 <body>
-  <h1>Metadata pública para un token de prueba de Sepolia</h1>
-  <p>Este sitio contiene archivos de metadata para un token de prueba desplegado en Sepolia.</p>
-  <p>No es un sitio oficial de Tether. El token no está emitido ni respaldado por Tether Limited.</p>
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Token de prueba en Sepolia, inicio">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>Pruebas en Sepolia</span>
+      </a>
+      <span class="network-pill"><span class="network-dot" aria-hidden="true"></span> Red de prueba</span>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">IMPORTACIÓN MANUAL · METAMASK</p>
+      <h1 id="page-title">Prueba el token en tu wallet</h1>
+      <p class="intro">Solicita a MetaMask que muestre este token de prueba en la red Sepolia. La solicitud abre una confirmación en tu wallet; tú decides si la aceptas.</p>
+    </section>
+
+    <section class="token-card" aria-labelledby="token-name">
+      <div class="token-heading">
+        <img class="token-logo" src="https://token-metadata-sepolia.maurenemarritt.workers.dev/assets/logo-distribution.png" alt="Logo del token de prueba" width="56" height="56">
+        <div>
+          <p class="token-label">TOKEN DE PRUEBA</p>
+          <h2 id="token-name">Tether USD <span class="symbol">USDT</span></h2>
+        </div>
+      </div>
+
+      <dl class="token-details">
+        <div class="detail-row">
+          <dt>Red</dt>
+          <dd>Sepolia <span class="chain-id">· Chain ID 11155111</span></dd>
+        </div>
+        <div class="detail-row">
+          <dt>Contrato</dt>
+          <dd class="address-value"><code>0xc2C71a850875d028c8d48047C5a6c11d0C434490</code><button class="copy-button" type="button" data-copy-address aria-label="Copiar dirección del contrato">Copiar</button></dd>
+        </div>
+        <div class="detail-row">
+          <dt>Decimales</dt>
+          <dd>18</dd>
+        </div>
+      </dl>
+
+      <button class="import-button" type="button" data-import-token>
+        <span>Solicitar importación en MetaMask</span>
+        <span class="button-arrow" aria-hidden="true">↗</span>
+      </button>
+      <p class="wallet-note">Se requiere MetaMask en la red Sepolia. La página solo solicita mostrar el token; no pide una firma, una frase secreta ni fondos.</p>
+      <p class="status" data-status role="status" aria-live="polite"></p>
+    </section>
+
+    <aside class="notice" aria-labelledby="notice-title">
+      <span class="notice-icon" aria-hidden="true">!</span>
+      <div>
+        <h2 id="notice-title">Token no oficial</h2>
+        <p>Este es un token de prueba desplegado en Sepolia. <strong>No está afiliado a Tether ni emitido, autorizado o respaldado por Tether Limited.</strong> No es USDT oficial y no tiene valor garantizado. No lo confundas con un activo de redes principales.</p>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <span>Solo para pruebas en la testnet Sepolia.</span>
+      <a href="https://sepolia.etherscan.io/token/0xc2C71a850875d028c8d48047C5a6c11d0C434490" target="_blank" rel="noopener noreferrer">Ver contrato en Etherscan <span aria-hidden="true">↗</span></a>
+    </footer>
+  </main>
 </body>
 </html>

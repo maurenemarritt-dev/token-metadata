@@ -1,2 +1,6 @@
 /*
   Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' https://token-metadata-sepolia.maurenemarritt.workers.dev; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
